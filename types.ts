@@ -17,6 +17,7 @@ export interface PortfolioItem {
   thumbnail: string;     // The poster image
   videoSrc?: string;     // Optional: For direct MP4 previews/files
   youtubeId?: string;    // Optional: For YouTube Embeds
+  instagramUrl?: string; // Optional: For Instagram Reels
   stats?: string;        // e.g. "2.5M Views"
   client?: string;       // e.g. "Nike"
 }

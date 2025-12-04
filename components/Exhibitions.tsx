@@ -5,9 +5,9 @@ import { ArrowRight, Sparkles } from 'lucide-react';
 import { GoogleGenAI } from "@google/genai";
 
 const exhibitionsData: Exhibition[] = [
-  { id: 1, title: 'Lead Editor', subtitle: 'Creative Agency X', location: 'Remote', date: '2023 - Present' },
-  { id: 2, title: 'Senior VFX Artist', subtitle: 'Studio Y', location: 'London', date: '2021 - 2023' },
-  { id: 3, title: 'Content Creator', subtitle: 'Freelance', location: 'Global', date: '2019 - 2021' },
+  { id: 1, title: 'Video Editor', subtitle: 'CutCraze', location: 'Remote', date: '2023 - Present' },
+  { id: 2, title: 'Video Editor', subtitle: 'Multiple Cafes', location: 'Mysuru', date: '2021 - Present' },
+  { id: 3, title: 'Content Creator', subtitle: 'Freelance', location: 'Global', date: '2019 - Present' },
 ];
 
 const ExhibitionRow: React.FC<{ 
