@@ -7,14 +7,14 @@ import { Play, X, TrendingUp, Youtube, Smartphone, Layers, MonitorPlay, Instagra
 // --- Improved Mock Data with YouTube Integrations ---
 const items: PortfolioItem[] = [
     // Storytelling (Long Form / YouTube)
-    {
-        id: 1,
-        title: 'A Day in the Life',
-        category: 'storytelling',
-        thumbnail: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1000&auto=format&fit=crop',
-        youtubeId: 'RA5tbseLU5M',
-        client: 'Vlogs'
-    },
+    // {
+    //     id: 1,
+    //     title: 'A Day in the Life',
+    //     category: 'storytelling',
+    //     thumbnail: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1000&auto=format&fit=crop',
+    //     youtubeId: 'RA5tbseLU5M',
+    //     client: 'Vlogs'
+    // },
     {
         id: 2,
         title: 'The Magic Arm',
@@ -53,12 +53,21 @@ const items: PortfolioItem[] = [
     },
     {
         id: 6,
-        title: 'Cafe Edit',
+        title: 'Cafe Edit(Coffee)',
         category: 'shortform',
         thumbnail: 'https://img.sanishtech.com/u/1af2960e4df36cd460671b2856385416.jpg', // 🔴 Replace with your external thumbnail link
-        instagramUrl: 'https://www.instagram.com/reel/DQtwJTREfFJ/?igsh=YTFyemh1Y2lydGll',
-        stats: '45k Shares',
-        client: 'Goat Cafe'
+        instagramUrl: 'https://www.instagram.com/reel/DVyXwrACAzD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+        // stats: '45k Shares',
+        client: 'Cafe Good Vibes'
+    },
+    {
+        id: 7,
+        title: 'Cafe Edit(StarGazing)',
+        category: 'shortform',
+        thumbnail: 'https://img.sanishtech.com/u/1af2960e4df36cd460671b2856385416.jpg', // 🔴 Replace with your external thumbnail link
+        instagramUrl: 'https://www.instagram.com/reel/DWWYuXUjVyS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+        stats: '80k+ Views',
+        client: 'Cafe Good Vibes'
     },
 
     // Motion (Graphics)

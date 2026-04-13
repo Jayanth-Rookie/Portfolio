@@ -6,7 +6,7 @@ import { GoogleGenAI } from "@google/genai";
 
 const exhibitionsData: Exhibition[] = [
   { id: 1, title: 'Video Editor', subtitle: 'CutCraze', location: 'Remote', date: '2023 - Present' },
-  { id: 2, title: 'Video Editor', subtitle: 'Multiple Cafes', location: 'Mysuru', date: '2021 - Present' },
+  { id: 2, title: 'Video Editor', subtitle: 'Multiple Cafes', location: 'Mysuru', date: '2025- Present' },
   { id: 3, title: 'Content Creator', subtitle: 'Freelance', location: 'Global', date: '2019 - Present' },
 ];
 

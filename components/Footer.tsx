@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
         <div className="container mx-auto px-4 md:px-12 flex flex-col md:flex-row justify-between items-center gap-8 opacity-50 text-xs uppercase tracking-widest">
           <span>© 2024 Jayanth DN</span>
           <div className="flex gap-8">
-            <a href="#" className="hover:text-[#FFCC00]">Instagram</a>
+            <a href="https://www.instagram.com/dnjayanthofficial?igsh=MWJsbmNrczl1emlwYg==" className="hover:text-[#FFCC00]">Instagram</a>
             <a href="#" className="hover:text-[#FFCC00]">Twitter</a>
             <a href="#" className="hover:text-[#FFCC00]">LinkedIn</a>
           </div>
